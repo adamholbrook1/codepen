@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="survey.css">
+</head>
+<body>
+
+<h1 id="title">Gaming Survey</h1>
+<div id='form-holder'>
+  <p id='description'>Please fill in the gaming survey!</p>
+    <form id="survey-form"> 
+
+      <label for="name" id='name-label'>* Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name here" required><br>
+
+      <label for="email" id='email-label'>* Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email here" required><br>
+      
+      <label for="age" id='number-label'>* Age:</label>
+      <input type="number" id="number" name="age" placeholder="Enter your age here" min='1' max='256' required><br>
+         
+      <label for="dropdown" id='dropdown-label'>What is your favourite fantasy creature?</label>
+  <select id='dropdown'>
+  <option disabled selected value> -- Select an option -- </option>
+  <option value="elf">Human</option>  
+  <option value="elf">Gnome</option>
+  <option value="elf">Troll</option>
+  <option value="elf">Dark Elf</option>
+  <option value="elf">Gremlin</option>
+  <option value="elf">Light Elf</option>
+  <option value="elf">Dwarf</option>
+  <option value="elf">Halfling</option>
+  <option value="orc">Orc</option>
+  <option value="goblin">Goblin</option>
+  <option value="spook">Undead / Ghoul / Spooky Entity</option>
+  <option value="goblin">None of the above</option>
+</select><br>
+      
+    <legend id='frequency'>How often do you play video/board games each week:</legend>
+      <div id='frequency-options'>
+    <input id="one" type="radio" name="items" value="one">
+    <label for="one">5 hours a week</label><br>
+    <input id="two" type="radio" name="items" value="two">
+    <label for="two">5-10 hours a week</label><br>
+    <input id="three" type="radio" name="items" value="three">
+    <label for="three">10-15 hours a week</label><br>
+    <input id="four" type="radio" name="items" value="four">
+    <label for="four">15-20 hours a week</label><br>
+    <input id="five" type="radio" name="items" value="five">
+    <label for="five">20-25 hours a week</label><br>
+    <input id="six" type="radio" name="items" value="six">
+    <label for="six">25+ hours a week</label><br>
+      </div>
+        
+        
+ <legend id='genre'>What are your favourite gaming genres:</legend>
+    <div id='genre-options'>
+    <input id="one" type="checkbox" name="items" value="one">
+    <label for="one">High Fantasy</label><br>
+    <input id="two" type="checkbox" name="items" value="two">
+    <label for="two">Sci FI</label><br>
+    <input id="three" type="checkbox" name="items" value="three">
+    <label for="three">Horror</label><br>
+    <input id="four" type="checkbox" name="items" value="four">
+    <label for="four">Dark Fantasy / Dystopia</label><br>
+    <input id="five" type="checkbox" name="items" value="five">
+    <label for="five">Post Apocalyptic</label><br>
+    <input id="six" type="checkbox" name="items" value="six">
+    <label for="six">Racing</label><br>
+    <input id="seven" type="checkbox" name="items" value="seven">
+    <label for="seven">Strategy</label><br>
+    <input id="eight" type="checkbox" name="items" value="eight">
+    <label for="eight">Sports</label><br>
+    <input id="nine" type="checkbox" name="items" value="nine">
+    <label for="nine">MMO</label><br>  
+    <input id="ten" type="checkbox" name="items" value="ten">
+    <label for="ten">Survival</label><br>
+    <input id="eleven" type="checkbox" name="items" value="eleven">
+    <label for="eleven">Beat 'em up / Fighter</label><br>
+    <input id="twelve" type="checkbox" name="items" value="twelve">
+    <label for="twelve">Shooter</label><br>
+    <input id="thirteen" type="checkbox" name="items" value="thirteen">
+    <label for="thirteen">Simulation</label><br>
+    <input id="fourteen" type="checkbox" name="items" value="fourteen">
+    <label for="fourteen">Other</label><br>  
+    </div>
+
+ <textarea id='comment' name="comment" rows="3" cols="20" maxlength="500" placeholder="Enter your gaming comments here..." required></textarea><br>
+
+<button id="submit" type="submit">Submit</button> 
+  </form>
+</div>
+
+</body>
+</html>

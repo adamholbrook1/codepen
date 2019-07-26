@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+html {
+  background: #D6EBF2;
+  padding: 15px;  
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: -5px;
+}
+
+#form-holder {
+  background: white;
+  padding: 15px;  
+  max-width:600px;
+  margin: auto;
+  text-align: center;
+}
+
+#name {
+  width: 40%;
+  padding: 10px;  
+  box-sizing: content-box;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+#email {
+  width: 40%;
+  padding: 10px;  
+  box-sizing: content-box;
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+
+#number {
+  width: 40%;
+  padding: 10px;  
+  box-sizing: content-box;
+  margin-bottom: 20px;
+  margin-left: 28px;
+}
+
+#dropdown {
+  width: 40%;
+  padding: 10px;  
+  box-sizing: content-box;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+#frequency {
+  width: 40%;
+  padding: 10px;  
+  box-sizing: content-box;
+  margin-bottom: 5px;
+  margin-left: 30px;
+  text-align: right;
+}
+
+#frequency-options {
+  padding: 10px;  
+  box-sizing: content-box;
+  margin-bottom: 20px;
+  margin-top: -80px;
+  margin-left: 300px;
+  text-align: left;
+}
+
+#genre {
+  width: 40%;
+  padding: 10px;  
+  box-sizing: content-box;
+  margin-bottom: 5px;
+  margin-left: 30px;
+  text-align: right;
+}
+
+#genre-options {
+  padding: 10px;  
+  box-sizing: content-box;
+  margin-bottom: 20px;
+  margin-top: -62px;
+  margin-left: 300px;
+  text-align: left;
+}
+
+#comment {
+  width: 60%;
+  padding: 10px;  
+  box-sizing: content-box;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+#submit {
+  width: 30%;
+  padding: 10px;  
+  margin-bottom: 20px;
+}

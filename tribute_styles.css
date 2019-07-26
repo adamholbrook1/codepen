@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+#main {
+  background: #D3D3D3;
+  padding: 15px;  
+ font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: -5px;
+}
+
+#sub-title{
+  text-align: center;
+  font-style: italic;
+}
+
+#img-div {
+  background: white;
+  width: 100%;
+
+}
+
+#image {
+  padding-bottom: 20px;
+  max-width: 100%; 
+  display: block; 
+  height: auto;
+  margin: auto;
+}
+
+#img-caption {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#tribute-info {
+  text-align: center;
+}
+
+ul {
+  padding-top: 2px;
+  max-width:600px;
+  margin: auto;
+  text-align:left;
+}
+
+li {
+  margin: 20px;
+  line-height: 25px;
+}
+
+#cleric-quote {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+#nimea-quote {
+  font-style: italic;
+}
